@@ -1,1 +1,1 @@
-# calculator-tkinter
+# simpel calculator with tkinter packeg
