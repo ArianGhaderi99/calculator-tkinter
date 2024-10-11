@@ -10,8 +10,8 @@ win.resizable(False,False)
 
 def sum():
     try:
-        number1=int(entry1.get())
-        number2=int(entry2.get())
+        number1=float(entry1.get())
+        number2=float(entry2.get())
         end=number1+number2
         label.config(text=f"{end}")
     except Exception:
@@ -19,8 +19,8 @@ def sum():
     
 def sub():
     try:
-        number1=int(entry1.get())
-        number2=int(entry2.get())
+        number1=float(entry1.get())
+        number2=float(entry2.get())
         end=number1-number2
         label.config(text=f"{end}")
     except Exception:
@@ -28,8 +28,8 @@ def sub():
 
 def mul():
     try:
-        number1=int(entry1.get())
-        number2=int(entry2.get())
+        number1=float(entry1.get())
+        number2=float(entry2.get())
         end=number1*number2
         label.config(text=f"{end}")
     except Exception:
@@ -37,8 +37,8 @@ def mul():
     
 def div():
     try:
-        number1=int(entry1.get())
-        number2=int(entry2.get())
+        number1=float(entry1.get())
+        number2=float(entry2.get())
         end=number1/number2
         label.config(text=f"{end}")  
     except Exception:
